@@ -1,0 +1,22 @@
+import React from "react";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import PricingSection from "./components/PricingSection";
+import OrderForm from "./components/OrderForm";
+import AdminPanel from "./components/AdminPanel";
+import ContactSection from "./components/ContactSection";
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <HeroSection />
+      <PricingSection />
+      <OrderForm />
+      <AdminPanel />
+      <ContactSection />
+    </div>
+  );
+}
+
+export default App;
